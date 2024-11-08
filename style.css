@@ -1,0 +1,157 @@
+body {
+font-family: Helvetica, Arial, sans-serif;
+font-size: 22px;
+color: seashell;
+background-color: black;
+opacity: 0.9
+}
+header{
+border-bottom: 1px solid seashell;
+height: 59px;
+position: sticky;
+}
+.logo img {
+height: 50px;
+margin-left: 10px;
+}
+p {
+font-family: Helvetica, Arial, sans-serif;
+font-size: 22px;
+color: seashell;  
+}
+.logo a {
+    font-family: Helvetica;
+    font-size: 22px;
+    text-decoration: underline;
+    color: seashell;
+    position: relative;
+    left: 740px;
+    bottom: 10px;
+    margin: 2px;
+}
+#mission {
+    background-image: url("./Images/img-mission-background.jpg");
+    border-top: 1px solid black;
+    border-right: 20px solid black;
+    border-bottom: 20px solid black;
+    border-left: 20px solid black;
+    height: 700px;
+    width: 1200px;
+    text-align: center;
+}
+.header2 {
+    position: relative;
+    text-align: center;
+    top: 37%;
+    background-color: black;
+}
+.header4 {
+    position: relative;
+    text-align: center;
+    top: 32%;
+    background-color: black;
+}
+.header2, .header4 {
+    box-sizing: content-box;
+    border: 16px solid black;
+}
+#tea{
+    text-align: center;
+}
+.row {
+    display: inline-flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+.row figcaption {
+    margin: 10px;
+}
+.berryblitz {
+    height: 200px;
+    width: 300px;
+}
+.spicedrumtea {
+    height: 200px;
+    width: 300px;
+}
+.donuts {
+    height: 200px;
+    width: 300px;
+}
+.myrtle {
+    height: 200px;
+    width: 300px;
+}
+.bedford {
+    height: 200px;
+    width: 300px;
+}
+#locations {
+    background-image: url(./Images/img-locations-background.jpg);
+    height: 575px;
+    border: 35px solid black;
+}
+.top {
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    color: seashell;
+    margin-top: 75px;
+}
+.downtown {
+    box-sizing: border-box;
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    display: inline-flex;
+    flex-flow: row wrap;
+    text-align: center;
+    justify-content: center;
+    margin: 15px 40px 15px 50px;
+    line-height: 1%;
+    letter-spacing: 1px;
+    opacity: 1;
+}
+.bayside {
+    box-sizing: border-box;
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    display: inline-flex;
+    flex-flow: row wrap;
+    text-align: center;
+    justify-content: center;
+    margin: 15px 40px 15px 40px;
+    line-height: 1%;
+    letter-spacing: 1px;
+    opacity: 1;
+}
+.oakdale {
+    box-sizing: border-box;
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    display: inline-flex;
+    flex-flow: row wrap ;
+    text-align: center;
+    justify-content: center;
+    margin: 15px 50px 15px 40px;
+    line-height: 1%;
+    letter-spacing: 1px;
+    opacity: 1;
+    position: absolute;
+}
+.cozy {
+    text-align: center;
+    margin-top: -50px;
+    box-sizing: border-box;
+    height: 200px;
+}
+.copy {
+    margin-left: 20px;
+}
+.copy p {
+    font-size: 18px;
+    font-style: italic;
+}
